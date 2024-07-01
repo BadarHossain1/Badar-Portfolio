@@ -11,9 +11,19 @@ import { Typewriter } from 'react-simple-typewriter'
 import { FaArrowDown } from "react-icons/fa";
 
 
+
 export default function Banner() {
+    const bannerStyle = {
+        backgroundImage: "url('https://i.ibb.co/3c6cbgp/cool-background.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        minHeight: '100vh',
+        
+       
+    };
+
     return (
-        <div className=' min-h-screen text-white'>
+        <div className=' min-h-screen text-white ' >
             <div className="navbar max-w-[900px] mx-auto">
                 <div className="flex-1">
                     <Link href={'/'} className=" font-extrabold text-4xl font-poppins">Badar</Link>
@@ -50,7 +60,7 @@ export default function Banner() {
 
                         {/* Base */}
 
-                        <a className="group relative inline-block focus:outline-none focus:ring  mt-5" href="#">
+                        <a className="group relative inline-block focus:outline-none focus:ring  mt-5" href="https://drive.google.com/file/d/1An1OVcvYotTx_X_nZT_TbMBb_N2xUaNe/view?usp=sharing" target='blank'>
                             <span
                                 className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-yellow-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"
                             ></span>

@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function Skills() {
     return (
-        <div className="bg-[#f5df4e]  ">
-            <p className="text-5xl pt-5 underline text-black font-extrabold font-serif w-full text-center ">My Skills</p>
+        <div className="bg-[#f5df4e]  mt-10">
+            <p className="text-5xl pt-7 underline text-black font-extrabold font-serif w-full text-center ">My Skills</p>
 
             {/* logos */}
-            <div className="max-w-[1170px] mx-auto pt-10">
+            <div className="max-w-[1170px] mx-auto pt-16">
                 <p className="text-center text-black font-semibold font-mono text-4xl ">Front End Development</p>
 
-                <div className="mt-3 grid grid-cols-2 lg:grid-cols-5 ">
+                <div className="mt-5 grid grid-cols-2 lg:grid-cols-5 gap-y-4">
 
 
 
@@ -53,7 +53,7 @@ export default function Skills() {
 
                 </div>
 
-                <div className="mt-4 grid grid-cols-2 lg:grid-cols-4 mx-auto">
+                <div className="mt-4 grid grid-cols-2 lg:grid-cols-4 mx-auto gap-y-4">
 
 
 
@@ -99,10 +99,10 @@ export default function Skills() {
             <hr className="mt-10 max-w-[1170px] mx-auto " />
             {/* Backend */}
 
-            <div className="max-w-[1170px] mx-auto pt-10">
+            <div className="max-w-[1170px] mx-auto pt-10 ">
                 <p className="text-center text-black font-semibold font-mono text-4xl ">Back End Development</p>
 
-                <div className="mt-3 grid grid-cols-3 lg:grid-cols-3 ">
+                <div className="mt-5 grid grid-cols-2 lg:grid-cols-3 gap-y-4">
 
 
                     <div className=" flex justify-center items-center">
@@ -121,6 +121,72 @@ export default function Skills() {
                         <div className="text-center ">
                             <Image src='https://imgs.search.brave.com/FHAFDfLQ41Rp1NXEIMVJ0xVVZXmpjQYW-YkeJxN2Gd4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9naXRo/dWIuY29tL21vbmdv/ZGIvbW9uZ28vcmF3/L21hc3Rlci9kb2Nz/L2xlYWYuc3Zn' alt="Mongo DB" width={80} height={100} className=""></Image>
                             <p className="text-center text-black font-bold">Mongo DB</p>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+            <hr className="mt-10 max-w-[1170px] mx-auto " />
+            {/* Dev tools */}
+
+
+
+            <div className="max-w-[1170px] mx-auto pt-10 ">
+                <p className="text-center text-black font-semibold font-mono text-4xl ">Dev Tools</p>
+
+                <div className="mt-5 grid grid-cols-2 lg:grid-cols-3 gap-y-4">
+
+
+                    <div className=" flex justify-center items-center">
+                        <div className="text-center ">
+                            <Image src='https://imgs.search.brave.com/V7l6mtXNPLKz2QGXDBBEkc6ZXICOcQRdXKq2n5eiTkA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/ZHJpYmJibGUuY29t/L3VzZXJzLzUzMjAx/NzQvc2NyZWVuc2hv/dHMvMTcwNzIwMjQv/bWVkaWEvNWE3MmY4/ZTM1NTk4NGY4NWIw/ZGRiOTg2ZjhmNzAw/ZmEucG5nP3Jlc2l6/ZT00MDB4MA' alt="Figma" width={120} height={100} className=""></Image>
+                            <p className="text-center text-black font-bold">Figma</p>
+                        </div>
+                    </div>
+                    <div className=" flex justify-center items-center">
+                        <div className="text-center ">
+                            <Image src='https://imgs.search.brave.com/1tkVRf1uC7LGdLaLOasZmLnvd22f2M1B7akfXXyVde0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sb2dv/dHlwLnVzL2ZpbGUv/dnMtY29kZS5zdmc' alt="Vs code" width={120} height={100} className=""></Image>
+                            <p className="text-center text-black font-bold">VS Code</p>
+                        </div>
+                    </div>
+                    <div className=" flex justify-center items-center">
+                        <div className="text-center ">
+                            <Image src='https://imgs.search.brave.com/hHpm-bAKw7C2sZzlUCJrr6GUrl-fnWUWZjKMaJXV_o4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ3Zjk4MWNlZjEw/MTRjMGI1ZTQ4YmUu/cG5n' alt="Git" width={80} height={100} className=""></Image>
+                            <p className="text-center text-black font-bold">Git</p>
+                        </div>
+                    </div>
+                    <div className=" flex justify-center items-center">
+                        <div className="text-center ">
+                            <Image src='https://imgs.search.brave.com/XsCqyeLJsm9ElXiWHUDp3frc06NEaXTcGwVh4bvh9IU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9HaXRIdWIv/R2l0SHViLUljb24t/V2hpdGUtRGFyay1C/YWNrZ3JvdW5kLUxv/Z28ud2luZS5zdmc' alt="GitHub" width={80} height={100} className=""></Image>
+                            <p className="text-center text-black font-bold">GitHub</p>
+                        </div>
+                    </div>
+                    <div className=" flex justify-center items-center">
+                        <div className="text-center ">
+                            <Image src='https://imgs.search.brave.com/vFvJU2OqCaXHNUMXqohStXoTlENaNbN8uu2vSG1Akyw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9rb2xs/aXRzY2guZGV2L2Js/b2cvMjAyMy9uZXRs/aWZ5cy1uZXctbG9n/by9oZWFkZXJfaHU5/MDhiNzJkMDBiN2Nm/MzY1MDYyZjczMzhl/ZmQ5OGZlZl8yMDQ2/MV85MTR4NDU3X2Zp/dF9xODVfaDJfbGFu/Y3pvc18zLndlYnA' alt="Netlify" width={100} height={100} className=""></Image>
+                            <p className="text-center text-black font-bold">Netlify</p>
+                        </div>
+                    </div>
+                    <div className=" flex justify-center items-center">
+                        <div className="text-center ">
+                            <Image src='https://imgs.search.brave.com/QzZtCN0BZsgoyLEG_mycUFr6xKoSLymWMBV4h1XU6HM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdmds/LmFwcC9saWJyYXJ5/L3ZlcmNlbF9kYXJr/LnN2Zw' alt="Vercel" width={80} height={100} className=""></Image>
+                            <p className="text-center text-black font-bold">Vercel</p>
                         </div>
                     </div>
 
