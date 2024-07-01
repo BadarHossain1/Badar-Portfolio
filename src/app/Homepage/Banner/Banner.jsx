@@ -18,28 +18,15 @@ export default function Banner() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh',
-        
-       
+
+
     };
 
     return (
         <div className=' min-h-screen text-white ' >
-            <div className="navbar max-w-[900px] mx-auto">
-                <div className="flex-1">
-                    <Link href={'/'} className=" font-extrabold text-4xl font-poppins">Badar</Link>
-                </div>
-                <div className=" ">
-                    <ul className="flex gap-2">
-                        <li ><a href='https://github.com/BadarHossain1' target='blank'><FaGithub className='text-[#f5df4e] w-[30px] h-[30px]' /></a></li>
-                        <li><a href="https://www.linkedin.com/in/badar-hossain1" target='blank'><FaLinkedin className='text-[#f5df4e] w-[30px] h-[30px]' /></a></li>
-                        {/* <li className='flex items-center gap-2 font-bold '><MdEmail className='text-[#f5df4e] w-[30px] h-[30px]' />badar12041@gmail.com</li> */}
 
 
-                    </ul>
-                </div>
-            </div>
-
-            <div className='mt-10 max-w-[1100px] mx-auto'>
+            <div className='mt-[100px] max-w-[1100px] mx-auto'>
                 <div className='flex flex-col lg:flex-row  '>
                     <div className='w-full  lg:w-1/2  flex justify-center items-center'>
                         <div className="avatar">
@@ -53,14 +40,39 @@ export default function Banner() {
 
                     <div className='mt-10 lg:mt-8 w-full lg:w-1/2 px-5 text-center lg:text-start '>
                         <p className='uppercase text-4xl  font-semibold text-[#f5df4e]'>HI, I AM BADAR HOSSAIN</p>
-                        <p className='uppercase text-4xl lg:text-4xl font-extrabold mt-3 shadow-lg pl-5 shadow-[#f5df4e]'>-Front End Developer</p>
-                        <p className='mt-6 font-normal font-mono'>I am a Front-end developer focused on crafting and building clean & user-friendly websites. I am passionate about building excellent software that is of use to everyone around me and for the organization I work for.
+                        <p className='uppercase text-4xl lg:text-4xl font-extrabold mt-3 shadow-lg pl-5 shadow-[#f5df4e]'>-{' '}
+                            <span style={{ color: 'white', fontWeight: 'bold' }}>
+                                {/* Style will be inherited from the parent element */}
+                                <Typewriter
+                                    words={['Front End Developer', 'React Developer']}
+                                    loop={5}
+                                    cursor
+                                    cursorStyle='_'
+                                    typeSpeed={70}
+                                    deleteSpeed={50}
+                                    delaySpeed={1000}
+                                    
+                                />
+                            </span>
+                        </p>
+                        <p data-aos="fade-up" className='mt-6 font-normal font-mono'>I am a Front-end developer focused on crafting and building clean & user-friendly websites. I am passionate about building excellent software that is of use to everyone around me and for the organization I work for.
 
                         </p>
+                        {/* <div>
+                            <ul className="flex gap-2 mt-4">
+                                <li ><a href='https://github.com/BadarHossain1' target='blank'><FaGithub className='text-[#f5df4e] w-[30px] h-[30px]' /></a></li>
+                                <li><a href="https://www.linkedin.com/in/badar-hossain1" target='blank'><FaLinkedin className='text-[#f5df4e] w-[30px] h-[30px]' /></a></li>
+                                {/* <li className='flex items-center gap-2 font-bold '><MdEmail className='text-[#f5df4e] w-[30px] h-[30px]' />badar12041@gmail.com</li> 
+                                </ul>
+                                </div> */}
+
+
+
+
 
                         {/* Base */}
 
-                        <a className="group relative inline-block focus:outline-none focus:ring  mt-5" href="https://drive.google.com/file/d/1An1OVcvYotTx_X_nZT_TbMBb_N2xUaNe/view?usp=sharing" target='blank'>
+                        <a data-aos="fade-up" className="group relative inline-block focus:outline-none focus:ring  mt-5" href="https://drive.google.com/file/d/1An1OVcvYotTx_X_nZT_TbMBb_N2xUaNe/view?usp=sharing" target='blank'>
                             <span
                                 className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-yellow-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"
                             ></span>
@@ -73,15 +85,16 @@ export default function Banner() {
                         </a>
 
                         <a
-                            className="group relative inline-flex items-center overflow-hidden rounded border border-current px-10 py-[12px] text-[#f5df4e] focus:outline-none focus:ring active:text-[#f5df4e] ml-6"
-                            href="#"
+                            className="group relative inline-flex items-center overflow-hidden rounded border border-current px-10 py-[12px] text-[#f5df4e] focus:outline-none focus:ring active:text-[#f5df4e] ml-6 scroll-smooth"
+                            href="#contact"
                         >
                             <span className="absolute -start-full transition-all group-hover:start-4">
-                                <FaArrowDown className='size-5 rtl:rotate-180'/>
+                                <FaArrowDown className='size-5 rtl:rotate-180' />
                             </span>
 
                             <span className="text-sm font-medium transition-all group-hover:ms-4"> Contact Me </span>
                         </a>
+
 
 
 

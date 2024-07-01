@@ -7,7 +7,10 @@ export default function Skills() {
             <p className="text-5xl pt-7 underline text-black font-extrabold font-serif w-full text-center ">My Skills</p>
 
             {/* logos */}
-            <div className="max-w-[1170px] mx-auto pt-16">
+            <div data-aos="fade-right"
+                
+                data-aos-easing="ease-in-sine" data-aos-duration='1000'
+                 className="max-w-[1170px] mx-auto pt-16 ">
                 <p className="text-center text-black font-semibold font-mono text-4xl ">Front End Development</p>
 
                 <div className="mt-5 grid grid-cols-2 lg:grid-cols-5 gap-y-4">
@@ -99,7 +102,9 @@ export default function Skills() {
             <hr className="mt-10 max-w-[1170px] mx-auto " />
             {/* Backend */}
 
-            <div className="max-w-[1170px] mx-auto pt-10 ">
+            <div data-aos="fade-right"
+                
+                data-aos-easing="ease-in-sine" data-aos-duration='1000' className="max-w-[1170px] mx-auto pt-10 ">
                 <p className="text-center text-black font-semibold font-mono text-4xl ">Back End Development</p>
 
                 <div className="mt-5 grid grid-cols-2 lg:grid-cols-3 gap-y-4">
@@ -147,7 +152,9 @@ export default function Skills() {
 
 
 
-            <div className="max-w-[1170px] mx-auto pt-10 ">
+            <div data-aos="fade-up"
+                
+                data-aos-easing="ease-in-sine" data-aos-duration='1000' className="max-w-[1170px] mx-auto pt-10 pb-4">
                 <p className="text-center text-black font-semibold font-mono text-4xl ">Dev Tools</p>
 
                 <div className="mt-5 grid grid-cols-2 lg:grid-cols-3 gap-y-4">
