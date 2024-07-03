@@ -8,6 +8,7 @@ import ContactMe from './ContactMe/ContactMe'
 import Footer from './Footer/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import About from './About/About'
 
 AOS.init();
 
@@ -15,6 +16,7 @@ export default function HomePage() {
   return (
     <div>
         <Banner></Banner>
+        {/* <About></About> */}
         <Skills></Skills>
         <Projects></Projects>
         <Education></Education>

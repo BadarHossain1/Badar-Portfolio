@@ -82,12 +82,12 @@ export default function Banner() {
 
 
 
-            <div className='mt-[80px] max-w-[1100px] mx-auto'>
+            <div className='mt-[40px] max-w-[1100px] mx-auto'>
                 <div className='flex flex-col lg:flex-row  '>
                     <div className='w-full  lg:w-1/2  flex justify-center items-center'>
                         <div className="avatar">
                             <div className="ring-offset-8  rounded-full border-8 shadow-xl  shadow-[#f5df4e]">
-                                <Image src='https://i.ibb.co/Gk9v1M0/proff-pic.jpg' alt='Badar' width={300} height={300}></Image>
+                                <Image src='https://i.ibb.co/Gk9v1M0/proff-pic.jpg' alt='Badar' width={350} height={350}></Image>
                             </div>
                         </div>
                     </div>
@@ -99,7 +99,7 @@ export default function Banner() {
                         <p className='uppercase text-4xl lg:text-4xl font-extrabold mt-3 shadow-lg pl-5 shadow-[#f5df4e]'>-Front End Developer
 
                         </p>
-                        <p data-aos="fade-up" className='mt-6 font-normal font-mono text-white'>I am a Front-end developer focused on crafting and building clean & user-friendly websites. I am passionate about building excellent software that is of use to everyone around me and for the organization I work for.
+                        <p data-aos="fade-up" className='mt-6 font-normal font-mono text-white'>I am a Front-end developer dedicated to crafting clean, user-friendly websites and passionate about building impactful software. Currently pursuing a Bachelors degree in Computer Science and Engineering at Leading University. My journey is marked by a continuous desire to learn and contribute, integrating my technical expertise to make a meaningful impact.
 
                         </p>
                         {/* <div>
@@ -118,7 +118,7 @@ export default function Banner() {
 
 
                         <div className='pb-8'>
-                            <a data-aos="fade-up" className="group relative inline-block focus:outline-none focus:ring  mt-5" href="/Badar_Resume.pdf" download>
+                            <a  className="group relative inline-block focus:outline-none focus:ring  mt-5" href="/Badar_Resume.pdf" download>
                                 <span
                                     className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-yellow-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"
                                 ></span>
