@@ -23,12 +23,25 @@ export default function Banner() {
 
     };
 
+    const Navlink = <>
+
+        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#about">About</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#skills">Skills</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#projects">Projects</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#education">Education</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#contact">Hire Me</a></li>
+
+
+
+
+    </>
+
     return (
-        <div id='banner' className=' min-h-screen text-white ' style={bannerStyle}>
-            <div className="navbar bg-base-100 max-w-[1100px] mx-auto">
+        <div id='banner' className=' min-h-screen text-white ' >
+            <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden rounded-lg">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 className="h-5 w-5"
@@ -45,43 +58,26 @@ export default function Banner() {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li>
-                                <a>Parent</a>
-                                <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            {Navlink}
                         </ul>
                     </div>
-                    <div className='btn btn-ghost text-xl'>
 
-                        <ul className='flex gap-2 mt-4'>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skills"></a></li>
-                            <li><a href="#About">About</a></li>
-                            <li><a href="#About">About</a></li>
-                            <li><a href="#About">About</a></li>
+                    <div className="navbar-center hidden lg:flex">
+                        <ul className="menu menu-horizontal px-1">
+                            {Navlink}
                         </ul>
-
                     </div>
-                    
                 </div>
-                <a className="">Badar Hossain</a>
-                <div className="navbar-center hidden lg:flex">
-                        <div>
-                            <ul className="flex gap-2 mt-4">
-                                <li ><a href='https://github.com/BadarHossain1' target='blank'><FaGithub className='text-[#f5df4e] w-[30px] h-[30px]' /></a></li>
-                                <li><a href="https://www.linkedin.com/in/badar-hossain1" target='blank'><FaLinkedin className='text-[#f5df4e] w-[30px] h-[30px]' /></a></li>
-                                {/* <li className='flex items-center gap-2 font-bold '><MdEmail className='text-[#f5df4e] w-[30px] h-[30px]' />badar12041@gmail.com</li> */}
-                            </ul>
-                        </div>
-                    </div>
-
-
+                <a className="btn btn-ghost text-3xl font-serif shadow-[#f5df4e] bg-transparent shadow-xl rounded-lg">Badar</a>
+                <div className="navbar-end">
+                    <ul className="flex gap-2 mt-4">
+                        <li ><a href='https://github.com/BadarHossain1' target='blank'><FaGithub className='text-[#f5df4e] w-[30px] h-[30px] hover:scale-110' /></a></li>
+                        <li><a href="https://www.linkedin.com/in/badar-hossain1" target='blank'><FaLinkedin className='text-[#f5df4e] w-[30px] h-[30px] hover:scale-110' /></a></li>
+                        {/* <li className='flex items-center gap-2 font-bold '><MdEmail className='text-[#f5df4e] w-[30px] h-[30px]' />badar12041@gmail.com</li> */}
+                    </ul>
+                </div>
             </div>
+
 
 
             <div className='mt-[100px] max-w-[1100px] mx-auto'>
@@ -118,6 +114,7 @@ export default function Banner() {
 
                         {/* Base */}
 
+
                         <div className='pb-8'>
                             <a data-aos="fade-up" className="group relative inline-block focus:outline-none focus:ring  mt-5" href="https://drive.google.com/file/d/1An1OVcvYotTx_X_nZT_TbMBb_N2xUaNe/view?usp=sharing" target='blank'>
                                 <span
@@ -132,7 +129,7 @@ export default function Banner() {
                             </a>
 
                             <a
-                                className="group relative inline-flex items-center overflow-hidden rounded  border-current px-10 py-[12px] text-black font-semibold border lg:text-[#f5df4e] focus:outline-none focus:ring active:text-[#f5df4e] ml-6 scroll-smooth"
+                                className="group relative inline-flex items-center overflow-hidden rounded  border-current px-10 py-[12px] text-[#f5df4e] font-semibold border lg:text-[#f5df4e] focus:outline-none focus:ring active:text-[#f5df4e] ml-4 scroll-smooth"
                                 href="#contact"
                             >
                                 <span className="absolute -start-full transition-all group-hover:start-4">
@@ -142,6 +139,7 @@ export default function Banner() {
                                 <span className="text-sm font-medium transition-all group-hover:ms-4 "> Contact Me </span>
                             </a>
                         </div>
+
 
 
 
