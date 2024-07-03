@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter'
 
 export default function Projects() {
     return (
-        <div className='mt-16 text-white max-w-[1170px] mx-auto'>
+        <div id='projects' className='mt-16 text-white max-w-[1170px] mx-auto'>
             <div className='text-center flex justify-center mb-10'>
                 <p className='text-5xl text-[#f5df4e] w-[250px] rounded-xl font-extrabold shadow-xl uppercase underline'> <span className='text-white '>My </span><span style={{  fontWeight: 'bold' }}>
                     {/* Style will be inherited from the parent element */}
@@ -25,7 +25,7 @@ export default function Projects() {
             {/* cards */}
 
             <div className='mt-2 font-sans'>
-                <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg  shadow-[#f5df4e] mb-8 bg-black">
+                <div className="block hover:scale-105 scroll-smooth  max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg  shadow-[#f5df4e] mb-8 bg-black">
 
                     <iframe
                         src="https://contestify.netlify.app/"
@@ -68,7 +68,7 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg shadow-[#f5df4e] mb-8 bg-black">
+                <div className="block hover:scale-105 max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg shadow-[#f5df4e] mb-8 bg-black">
 
                     <iframe
                         src="https://prod-sphere.netlify.app/"
@@ -116,7 +116,7 @@ export default function Projects() {
 
                     </div>
                 </div>
-                <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg shadow-[#f5df4e] mb-8 bg-black">
+                <div className="block hover:scale-105 max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg shadow-[#f5df4e] mb-8 bg-black">
 
                     <iframe
                         src="https://tourease-b114f.web.app/"
@@ -160,7 +160,7 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-                <div className="block max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg shadow-[#f5df4e] mb-8 bg-black">
+                <div className="block hover:scale-105 max-w-sm gap-3 mx-auto sm:max-w-full group hover:no-underline rounded-xl lg:grid lg:grid-cols-12 shadow-lg shadow-[#f5df4e] mb-8 bg-black">
 
                     <iframe
                         src="https://royalty-estate-d7d9e.web.app/"

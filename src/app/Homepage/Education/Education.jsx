@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Education() {
     return (
-        <div>
+        <div id='education'>
             <section className="bg-black dark:bg-gray-100 text-gray-100 dark:text-gray-800 mt-[150px] mb-[50px]">
                 <div className="container max-w-5xl px-4 py-12 mx-auto">
                     <div className="grid gap-4 mx-4 sm:grid-cols-12">

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Skills() {
     return (
-        <div className="bg-[#f5df4e]  mt-10">
+        <div id="skills" className="bg-[#f5df4e] ">
             <p className="text-5xl pt-7 underline text-black font-extrabold font-serif w-full text-center ">My Skills</p>
 
             {/* logos */}
