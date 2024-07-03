@@ -9,6 +9,8 @@ import { FaLinkedin } from "react-icons/fa";
 
 import { Typewriter } from 'react-simple-typewriter'
 import { FaArrowDown } from "react-icons/fa";
+import { FaRegFileAlt } from "react-icons/fa";
+
 
 
 
@@ -25,11 +27,11 @@ export default function Banner() {
 
     const Navlink = <>
 
-        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#about">About</a></li>
-        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#skills">Skills</a></li>
-        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#projects">Projects</a></li>
-        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#education">Education</a></li>
-        <li className='hover:bg-[#f5df4e] hover:text-white'><a href="#contact">Hire Me</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white rounded-2xl'><a href="#about">About</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white rounded-2xl'><a href="#skills">Skills</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white rounded-2xl'><a href="#projects">Projects</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white rounded-2xl'><a href="#education">Education</a></li>
+        <li className='hover:bg-[#f5df4e] hover:text-white rounded-2xl'><a href="#contact">Hire Me</a></li>
 
 
 
@@ -80,11 +82,11 @@ export default function Banner() {
 
 
 
-            <div className='mt-[100px] max-w-[1100px] mx-auto'>
+            <div className='mt-[80px] max-w-[1100px] mx-auto'>
                 <div className='flex flex-col lg:flex-row  '>
                     <div className='w-full  lg:w-1/2  flex justify-center items-center'>
                         <div className="avatar">
-                            <div className="ring-offset-8  rounded-full border-8 shadow-lg  shadow-[#f5df4e]">
+                            <div className="ring-offset-8  rounded-full border-8 shadow-xl  shadow-[#f5df4e]">
                                 <Image src='https://i.ibb.co/Gk9v1M0/proff-pic.jpg' alt='Badar' width={300} height={300}></Image>
                             </div>
                         </div>
@@ -116,7 +118,7 @@ export default function Banner() {
 
 
                         <div className='pb-8'>
-                            <a data-aos="fade-up" className="group relative inline-block focus:outline-none focus:ring  mt-5" href="https://drive.google.com/file/d/1An1OVcvYotTx_X_nZT_TbMBb_N2xUaNe/view?usp=sharing" target='blank'>
+                            <a data-aos="fade-up" className="group relative inline-block focus:outline-none focus:ring  mt-5" href="/Badar_Resume.pdf" download>
                                 <span
                                     className="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-yellow-300 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"
                                 ></span>
@@ -124,7 +126,9 @@ export default function Banner() {
                                 <span
                                     className="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold uppercase tracking-widest text-white group-active:text-opacity-75"
                                 >
-                                    <span className='text-black'>Resume</span>
+                                    <div className='text-black flex items-center gap-3'><FaRegFileAlt />
+                                    <p>Resume</p>
+                                    </div>
                                 </span>
                             </a>
 
